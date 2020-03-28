@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+</head>
+<body>
+<div id="div1" style="color:Black"></div>
+
+<script>
+    function time() {
+        var date = new Date();
+        var hour = date.getHours();
+        var minutes = date.getMinutes();
+        var seconds = date.getSeconds();
+        var str = "北京时间：" + hour + "时" + minutes + "分" + seconds + "秒";
+        var div1 = document.getElementById("div1");
+        div1.innerHTML = str;
+    }
+    setInterval(time,1000);
+</script>
+</body>
+<img src="D:/Document/K&L Store/web.jpg" width="500px"; height="600px"; style="position:absolute; left:600px; top:10px; ">
+
+<table border="1" cellpadding="5">
+<div>
+ <tr>
+	<td><font size:18px">Search</font></td>
+	<td><font size:18px">RMIT</font></td>
+	<td><font size:18px">K&L Store</font></td>
+	</tr>
+
+	<tr>
+	<td><a href="http://www.baidu.com">Baidu</a></td>
+    <td><a href="http://www.rmit.edu.au">RMIT University</a></td>
+	<td><a href="http://mofa188.com">K&L Store销售系统</a></td>
+	</tr>
+	
+    <tr>
+	<td><a href="http://www.google.com.au">Google</a></td>
+	<td><a href="https://rmit.instructure.com/">RMIT Dashboard</a></td>
+    <td><a href="http://kevininau.mofa.ht">K&L Store</a></td>
+	</tr>
+	
+	<tr>
+	<td><a href="http://www.hao123.com">Web Guide</a></td>
+	<td><a href="http://www.rmit.edu.au/students">Students Page</a></td>
+	<td><a href="D:/Document/K&L Store/团购讲解.pdf">K&L Store团购模式PPT</a></td>
+	</tr>
+	</table>
+
+	<p><text-align:"footer">@by Kevin</p>
+    
+
+</div>
+</html>
